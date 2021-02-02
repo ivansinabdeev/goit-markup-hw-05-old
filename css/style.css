@@ -54,7 +54,7 @@ img {
   padding-right: 15px;
   width: 1200px;
   min-height: auto;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
 }
 
 /* Шапка сайта */
@@ -92,7 +92,7 @@ img {
   margin-left: 93px;
 }
 .site-nav .item {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-right: 50px;
 }
 .site-nav .item:last-child {
@@ -121,7 +121,7 @@ img {
   align-items: center;
 }
 .kontakt-nav .item {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   fill: var(--ouwer-text-color);
   margin-right: 50px;
 }
@@ -163,7 +163,7 @@ img {
 .hero-section {
   max-width: 1600px;
   height: 600px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
