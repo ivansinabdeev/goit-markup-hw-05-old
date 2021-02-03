@@ -301,6 +301,40 @@ img {
   line-height: 1.16;
   text-align: center;
 }
+.work-card-overlay {
+  position: relative;
+}
+.work-overlay-text-conteiner {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--secondary-text-color);
+
+  /* transform: translateX(-100%);
+  transition: transform 250ms ease; */
+}
+.work-overlay-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+.work-desktop {
+  padding: 27px 82px 27px 83px;
+}
+.work-mob {
+  padding: 27px 85px 27px 86px;
+}
+.work-design {
+  padding: 27px 90px 27px 91px;
+}
+/* .work-card-overlay:hover .work-overlay-text-conteiner {
+  transform: translateX(0);
+} */
 
 /* Team */
 
@@ -556,7 +590,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.overlay-text {
+.overlay-text-conteiner {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -568,10 +602,16 @@ img {
   transform: translateX(-100%);
   transition: transform 250ms ease;
 }
-.project-card-link:hover .overlay-text {
+.project-card-link:hover .overlay-text-conteiner {
   transform: translateX(0);
 }
-
+.overlay-text {
+  padding: 63px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+}
 /* Footer */
 
 .footer-background {
