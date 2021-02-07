@@ -67,13 +67,9 @@ header {
   align-items: center;
   height: 80px;
 }
-/* .line {
-  border: 1px solid var(--line-color);
-} */
 
-/* .portfolio-header {
-  
-} */
+/* .portfolio-header */
+
 .header-portfolio {
   display: flex;
   align-items: center;
@@ -111,6 +107,8 @@ header {
   line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -153,6 +151,8 @@ header {
   line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-mail:hover,
 .tel-mail:focus {
@@ -160,18 +160,9 @@ header {
   fill: var(--acent-color);
 }
 
-/* .kontakt-nav .item .tel-mail:hover {
-  color: var(--acent-color);
-  fill: var(--acent-color);
-} */
-
 .tel-icon {
   margin-right: 10px;
 }
-/* .tel-icon:hover,
-.tel-icon:focus {
-  color: var(--acent-color);
-  fill: var(--acent-color); */
 
 /* studio */
 
@@ -358,9 +349,6 @@ header {
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
   color: var(--secondary-text-color);
-
-  /* transform: translateX(-100%);
-  transition: transform 250ms ease; */
 }
 .work-overlay-text {
   font-weight: 700;
@@ -378,9 +366,6 @@ header {
 .work-design {
   padding: 27px 90px 27px 91px;
 }
-/* .work-card-overlay:hover .work-overlay-text-conteiner {
-  transform: translateX(0);
-} */
 
 /* Team */
 
@@ -451,6 +436,8 @@ header {
   border-radius: 50%;
   cursor: pointer;
   fill: var(--icon-color);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:last-child {
   margin-right: 0px;
@@ -581,7 +568,6 @@ header {
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:active {
   color: var(--background-color);
@@ -748,6 +734,8 @@ header {
   cursor: pointer;
   fill: var(--secondary-text-color);
   background: rgba(255, 255, 255, 0.1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:last-child {
   margin-right: 0px;
