@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -80,9 +81,7 @@
                     <li>
                         <div class="work-card-overlay">
                             <img src="./image/index/box-1.jpg"  class="work-img" alt="печать на клавиатуре" width="370" height="294">
-                                <div class="work-overlay-text-conteiner">
-                                    <p class="work-overlay-text work-desktop">Десктопные приложения</p>
-                                </div>
+                            <p class="work-overlay-text work-desktop">Десктопные приложения</p>
                         </div>
                     </li>
                     <li>
@@ -345,11 +344,11 @@
     </footer>
     <div data-modal class="backdrop is-hidden">
         <div class="modal">
-            <a href="" class="social-link">
-                <svg data-modal-close class="social-icon">
+            <button type="button" class="modal-close">
+                <svg data-modal-close class="modal-icon">
                     <use href="./image/icon/sprite.svg#icon-close-black"></use>
                 </svg>
-            </a>
+            </button>
         </div>
     </div>
     <script src="./js/modal.js"></script>
